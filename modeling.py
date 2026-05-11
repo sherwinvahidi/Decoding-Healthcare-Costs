@@ -31,7 +31,7 @@ def train_borough_cost_models(df):
     )"""
     borough_models = {}
     feature_importances = []
-    feature_cols.remove("Total Costs")
+    feature_cols = [c for c in feature_cols if c != "Total Costs"]
     
     for borough in df['Borough'].unique():
 
