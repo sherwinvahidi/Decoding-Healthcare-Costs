@@ -14,6 +14,12 @@ Analysis of 2016 inpatient discharge data across NYC's five boroughs to uncover 
 - **Staten Island** and the **Bronx** have the highest emergency admission rates (67.8% and 66.3%), yet the highest long-stay costs — pointing to capacity gaps
 - **APR DRG codes 001–100** (acute care / organ transplants) carry disproportionately high costs; standardizing drug formularies could reduce spend
 
+## Key Visualizations
+
+![Patient Distribution](figures/patient_distribution_pie.png)
+![Feature Importance](figures/feature_importance_by_borough.png)
+![Borough Comparisons](figures/borough_operational_comparisons.png)
+
 ---
 
 ## Project Structure
